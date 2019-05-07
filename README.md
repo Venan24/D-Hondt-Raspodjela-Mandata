@@ -3,7 +3,7 @@
 ## Princip rada D'Hondt metode
 * Po ovoj metodi svi glasovi se dijele na 1,2,3,4,5 i tako redom do broja dostupnih mandata.
 * Nova lista koju dobijemo sadrzi sve glasove svih stranaka podjeljene sa ovim brojevima. Ova lista se sortira po glasovima od najveceg do najmanjeg.
-* Zatim se uzima broj madata (npr. 5) i onda se uzima se 5. clan iz sortirane liste i njega koristimo kao zajednickog djeljutelja.
+* Zatim se uzima broj madata (npr. 5) i onda se uzima se 5. clan iz sortirane liste i njega koristimo kao zajednickog djeljitelja.
 * Zatim se mandati racunaju po principu: 
 * Ukupan broj glasova stranke / Zajednicki djeljitelj = Broj osvojenih mandata stranke.
 
