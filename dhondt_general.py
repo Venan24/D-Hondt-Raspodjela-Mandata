@@ -22,10 +22,7 @@ def dobaviBrojOsvojenihMandata(trazenaStranka):
             return item.brojGlasova/zajednickiKolicnik
 
 # Definicija Varijabli #
-ukupanBrojGlasova = 0
 listaUnesenihStranaka = []
-nezadovoljavajuciPrag = []
-zadovoljavajuciPrag = []
 listaKolicnika = []
 zajednickiKolicnik = 0
 imenaStranaka = []
@@ -79,13 +76,9 @@ for stranka in imenaStranaka:
 
 # Ispis u formatu tabele #
 konacnaListaStranakatabela = []
-nezadovoljavajuciPragTabela = []
 for x in konacnaListaMandata:
     lista = [x.imeStranke, x.brojGlasova, x.brojMandata]
     konacnaListaStranakatabela.append(lista)
-for x in nezadovoljavajuciPrag:
-    lista = [x.imeStranke, x.brojGlasova]
-    nezadovoljavajuciPragTabela.append(lista)
 
 print ("")
 print ("")
