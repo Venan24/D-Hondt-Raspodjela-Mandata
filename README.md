@@ -1,7 +1,11 @@
 # Primjena D'Hondt u raspodjeli mandata FBiH
 
 ## Princip rada D'Hondt metode
-Po ovoj metodi svi glasovi se dijele na 1,2,3,4,5 i tako redom do broja dostupnih mandata. Nova lista koju dobijemo sadrzi sve glasove svih stranaka podjeljene sa ovim brojevima. Ova lista se sortira po glasovima od najveceg ka najnizem. Zatim se uzima broj madata (npr. 5) i uzima se 5. clan iz te liste i on je zajednicki djeljutelj. Zatim se mandati racunaju na princip Ukupan broj glasova stranke / 5. clan liste = broj osvojenih mandata stranke.
+* Po ovoj metodi svi glasovi se dijele na 1,2,3,4,5 i tako redom do broja dostupnih mandata.
+* Nova lista koju dobijemo sadrzi sve glasove svih stranaka podjeljene sa ovim brojevima. Ova lista se sortira po glasovima od najveceg do najmanjeg.
+* Zatim se uzima broj madata (npr. 5) i onda se uzima se 5. clan iz sortirane liste i njega koristimo kao zajednickog djeljutelja.
+* Zatim se mandati racunaju po principu: 
+* Ukupan broj glasova stranke / Zajednicki djeljitelj = Broj osvojenih mandata stranke.
 
 ## Princip rada po nasem Izbornom zakonu
 * Glasovi svih stranaka se dijele sa 1,3,5,7 itd. do broja dostupnih mandata i ta lista se naziva Kolicnici
